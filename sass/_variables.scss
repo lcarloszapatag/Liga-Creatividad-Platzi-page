@@ -1,0 +1,35 @@
+$marino: #5e17eb;
+$cielo: #00bdd3;
+$negrito:  #00051de8;
+$negroso:  #00051dc4;
+
+
+.contenedor {
+    margin-left: 10%;
+    margin-right: 10%;
+    @media screen and (max-width:500px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+#miLogo{
+    font-size: 30px;
+    font-weight: bold;
+    color: $marino !important;
+    @media screen and (max-width:712px) {
+        h1 {
+            font-size: 20px !important;
+        }
+    }
+    span {
+        color: $negrito;
+    }
+
+    &::before{
+        content: '< ';
+    }
+    &::after{
+        content: '/>';
+    }
+}

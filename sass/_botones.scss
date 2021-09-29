@@ -1,0 +1,39 @@
+@import './variables';
+// Botones
+
+.boton-1 {
+    padding: 10px 30px !important;
+    background: $marino;
+    margin: 10px 0px;
+    border-radius:50px;
+    text-decoration: none;
+    color: white !important;
+    font-weight: 400;
+    font-size: 18px !important;
+    border: 2px solid $marino;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px $marino;
+    &:hover{
+        transition: all .2s;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.452);
+    }
+}
+
+
+.boton-2 {
+    padding: 10px 30px;
+    background: $negrito;
+    margin: 10px 0px;
+    border-radius:50px;
+    text-decoration: none;
+    color: white !important;
+    font-weight: 400;
+    font-size: 18px !important;
+    border: 2px solid $negrito;
+    font-weight: bold;
+    &:hover{
+        transition: all .3s;
+        background-color:$negroso;
+        color:white !important;
+    }
+}
