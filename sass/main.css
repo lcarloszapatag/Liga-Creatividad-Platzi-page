@@ -948,7 +948,9 @@ header .div-header .divImg img {
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
-  background: url(../images/pro1.png);
+  background: url(../images/loba-arma.png);
+   background-repeat: no-repeat;
+
 }
 
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .img2 {
