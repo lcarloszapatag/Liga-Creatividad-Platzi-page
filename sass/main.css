@@ -956,41 +956,52 @@ header .div-header .divImg img {
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .img2 {
   width: 100%;
   height: inherit;
-  background: url(../images/pro2.png);
+ 
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+      background: url(../images/loba-arma.png);
+    background-repeat: no-repeat;
 }
 
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .img3 {
   width: 100%;
   height: inherit;
-  background: url(../images/pro3.png);
+ 
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+
+      background: url(../images/loba-arma.png);
+    background-repeat: no-repeat;
 }
 
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .img4 {
   width: 100%;
   height: inherit;
-  background: url(../images/pro4.png);
+  
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+
+     background: url(../images/loba-arma.png);
+    background-repeat: no-repeat;
 }
 
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .img5 {
   width: 100%;
   height: inherit;
-  background: url(../images/pro5.png);
+ 
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+
+      background: url(../images/loba-arma.png);
+    background-repeat: no-repeat;
 }
 
 .seccion-portafolio .div-portafolio .tarjeta-portafolio .divArri {

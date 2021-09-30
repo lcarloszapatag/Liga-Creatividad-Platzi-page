@@ -1,0 +1,30 @@
+contenedor{
+  background:white;
+  width:100vw; 
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loba{
+  position:relative;
+ 
+   
+  width:200px; 
+  height:200px;
+
+  background-image: url("../images/loba-arma.png");
+    background-repeat: no-repeat;
+  border-radius: 100px;
+  animation: example 6s linear        infinite;
+}
+
+@keyframes example {
+    0%   {top: 0px; left: 0px;}
+    20%  {top: 0px; left: 100px;}
+    50%  {top: 100px; left: 0px;}
+    75% {top: 100px; left: 0px;}
+    100% {top: 0px; left: 0px;}
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    100% {border-radius: 100px}
