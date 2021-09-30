@@ -43,21 +43,45 @@ h1 {
 	animation-duration: 1s;
 	animation-delay: -0.5s;
 	animation-timing-function: steps(4);
-	animation-iteration-count: 2;
+	animation-iteration-count: 1;
+
+
+
+
+
+
 }
 
 .bird-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-150%,-100%);
+	transform: translate(150%,60%);
 	will-change: transform;
 }
 
 @keyframes fly-cycle {
 	
-	100% {
-		background-position: 50%  -4600px;
+	from {
+
+		margin-left: 0%;
+    width: 100%;
+		
+		
 	}
-	
+
+to{
+
+background-position: 0 3600px;
+
+}
+
+}
+
+@keyframes fly-cycle-2 {
+
+
+100% {
+		background-position: -3600px 0;
+	}
 }
